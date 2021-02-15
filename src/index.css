@@ -6,8 +6,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgb(28,146,208);
-  background: linear-gradient(90deg, rgba(28,146,208,1) 0%, rgba(242,252,254,1) 53%, rgba(251,204,255,1) 100%);
+  background: #EECDA3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(120deg, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-attachment: fixed;
 }
 
 code {
